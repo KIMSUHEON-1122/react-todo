@@ -23,7 +23,7 @@ export const Todo = ({todo, onUpdate, onDelete}) => {
         className={styles.checkbox}
         id = {id}
         type="checkbox"
-        checked = {status=="completed"}
+        checked = {status==="completed"}
         onChange = {handleChange}/>
         <label 
         className={styles.text}
