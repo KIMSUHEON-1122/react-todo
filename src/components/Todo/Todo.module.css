@@ -1,0 +1,39 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    margin: 0.1rem;
+    color: var(--color-text);
+    align-items: center;
+}
+.checkbox{
+    width: 1.2rem;
+    height: 1.2rem;
+    accent-color: var(--color-accent);
+}
+.text{
+    flex : 1;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--color-grey);
+    border-radius: 50%;
+    text-align: center;
+    transition: 150ms ease-out;
+}
+.icon:hover{
+    background-color: var(--color-accent);
+    transform: rotate(15deg) scale(1.2);
+}
+.button{
+    background-color: transparent;
+    position: relative;
+    right: 0.05rem;
+    cursor: pointer;
+}
+
