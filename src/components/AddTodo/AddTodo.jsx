@@ -27,7 +27,7 @@ export const AddTodo = ({onAdd}) => {
     }
 
     const onEnterPress = (e) => {
-        if(e.key == "Enter"){
+        if(e.key === "Enter"){
             handleSubmit();
         }
     }
